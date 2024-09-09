@@ -1,0 +1,139 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
+  transition: all .2s linear;
+}
+img{
+  width: 100%;
+}
+.main{
+  display: flex;
+  padding-inline:10% 5%;
+}
+.product{
+  flex:4;
+  padding:50px;
+}
+.product-content{
+  border: 1px solid #00000016;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.089);
+  border-radius: 10px;
+  padding:20px;
+}
+.product h5{
+  font-size: 20px;
+  padding-bottom:5px;
+  border-bottom:1px solid black;
+}
+.payment-option {
+  display: flex;
+  gap:10px;
+}
+
+.payment-option button:hover {
+  cursor: pointer;
+}
+
+.payment-option img{
+  width: 20px;
+  border-radius: 10rem ;
+}
+
+.payment-option button{
+  font-size: 10px;
+  border:none;
+  background-color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.562);
+  padding:0 5px;
+  border-radius: 5px;
+  display: flex ;
+  align-items: center;
+  gap:10px;
+}
+.product-body img{
+  width: 60px;
+}
+.img-product{
+  gap:10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.product-body table{
+  width: 100%;
+}
+.product-body  input{
+  width: 30px;
+}
+.product-body tbody td{
+  padding-top:20px;
+}
+.product-body thead{
+  font-weight: bold;
+}
+.product-body tbody button{
+  color:white;
+  border:none;
+  border-radius: 5px;
+  background: #333;
+  padding:5px;
+  cursor: pointer;
+}
+.product-footer{
+  display: flex;
+  justify-content: end;
+  gap:10px;
+  padding-top:20px;
+}
+.product-footer button{
+  padding:5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+  border:none;
+  border-radius: 5px;
+  background: #333;
+}
+.product-footer .btn-primary{
+  background: red;
+}
+
+.cart-total{
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+.container{
+  flex:1;
+  padding:50px;
+  margin-block: 50px;
+  border: 1px solid #00000016;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.089);
+  border-radius: 10px;
+  height: fit-content;
+}
+.container .form{
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+.container .form label{
+  font-size: 10px;
+}
+.container  input{
+  width: 100%;
+  padding:10px;
+  border-radius: 5px ;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+}
+.container .form .form-row{
+  display: flex;
+  flex-direction: column;
+  gap:3px;
+}

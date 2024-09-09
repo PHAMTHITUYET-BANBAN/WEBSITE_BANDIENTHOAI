@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <a href="./index.html">
+                <div class="logo"><img src="./images/public-img/logo.png" alt="">
+            </a>
+            <h1 style="font-weight: bold;;">dixie</h1>
+        </div>
+        </div>
+        <div class="center">
+            <nav class="menu">
+                <div class="menu-items"><a href="./index.html">Trang chủ</a></div>
+                <div class="menu-items"><a href="./products.html">sản phẩm</a>
+                    <div class="menu-lv-2">
+                        <div class="menu-items-lv-2"><a href="#">Orion</a></div>
+                        <div class="menu-items-lv-2"><a href="#">Lay's</a></div>
+                        <div class="menu-items-lv-2"><a href="#">Poca</a></div>
+                        <div class="menu-items-lv-2"><a href="#">Oishi</a></div>
+                    </div>
+                </div>
+                <div class="menu-items"><a href="">tin tức</a></div>
+                <div class="menu-items"><a href="">Liên hệ</a></div>
+            </nav>
+        </div>
+        <div class="right">
+            <div class="search">
+                <input type="text" placeholder="Tìm kiếm ...">
+                <div class="btn"><ion-icon name="search-outline"></ion-icon></div>
+            </div>
+            <div class="cart">
+                <div class="quantity">0</div>
+                <a href="./cart.html"><img src="./images/icons/carts.png" alt=""></a>
+            </div>
+            <div class="account">
+                <div class="avatar">
+                    <a href="./login.html">
+                        <img src="./images/icons/user.png" alt="">
+                    </a>
+                </div>
+                <h4 class="user-name">Khách hàng 1</h4>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div id="myModal" class="product">
+            <div class="product-content">
+                <div class="product-header">
+                    <h5 class="product-title">Giỏ Hàng</h5>
+
+                </div>
+                <div class="product-body list-cart">
+                    <table >
+                        <thead>
+                            <td>Sản Phẩm</td>
+                            <td>Giá</td>
+                            <td>Số Lượng</td>
+                            <td></td>
+                        </thead>
+                        <tbody >
+                            <!-- <tr>
+                                <td class="img-product">
+                                    <img src="./images/SNACK ORION/63g_swing-mockup-2.png" alt="">
+                                    <span class="_name">oishi 1</span>
+                                </td>
+                                <td>
+                                    300000 VND
+                                </td>
+                                <td>
+                                    <input type="number" value="1" min="1">
+                                </td>
+                                <td><button>Xóa</button></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Tổng Cộng:</strong>
+                        <span class="cart-total-price">0 VND</span>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                    <button type="button" class="btn btn-primary">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="form">
+                <div class="form-row">
+                    <label class="hvt">Họ và Tên <small class="message"></small></label>
+                    <input type="text" id="hovaten" name="hoVaTen" placeholder="Họ và tên của bạn...">
+                </div>
+                <div class="form-row">
+                    <label>Địa Chỉ <small class="message"></small></label>
+                    <input type="text" id="diachi" name="diaChi" placeholder="Địa chỉ của bạn...">
+                </div>
+                <div class="form-row">
+                    <label>Số điện thoại <small class="message"></small></label>
+                    <input type="text" id="sdt" name="sdt" placeholder="Số điện thoại của bạn...">
+                </div>
+            </div>
+            <div style="padding-top: 10px;" class="voucher">
+                <label >Mã giảm giá (nếu có) <small class="message"></small></label>
+                <input type="text" id="voucher" name="voucher" placeholder="Nhập vào mã giảm giá...">
+            </div>
+            <h3 style="padding-block: 10px 5px;">Hình thức thanh toán</h3>
+            <div class="payment-option">
+                <button typ="button" class="button-payment"><img src="./images/icons/cash.jpg">Tiền mặt</button>
+                <button typ="button" class="button-payment"><img src="./images/icons/momo.png" alt="momo.png">Momo</button>
+                <button typ="button" class="button-payment"><img src="./images/icons/tpbank.jpg" alt="tpbank.jpg">TP Bank</button>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <footer>
+            <div class="f-item">
+                <div class="app-info">
+                    <span class='app-name'>
+                        <span class='app-initial'>D</span>ixie
+                    </span>
+                    <p>Chúng tôi cam kết sản phẩm<strong> an toàn </strong> và <strong> đảm bảo chất lượng </strong> tốt
+                        nhất
+                        đến cho người dùng.</p>
+                    <ul class="social-icon">
+                        <li class="social-icon__item"><a class="social-icon__link" href="#">
+                                <ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li class="social-icon__item"><a class="social-icon__link" href="#">
+                                <ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li class="social-icon__item"><a class="social-icon__link" href="#">
+                                <ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li class="social-icon__item"><a class="social-icon__link" href="#">
+                                <ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+                <div class="useful-links">
+                    <div class="footer-title">Kết nối với Dixie</div>
+                    <ul>
+                        <li>Giới thiệu</li>
+                        <li>Đăng nhập</li>
+                        <li>Về chúng tôi</li>
+                        <li>Liên kết</li>
+                        <li>Quảng cáo với chúng tôi</li>
+                        <li>Điều khoản và dịch vụ</li>
+                    </ul>
+                </div>
+                <div class="help-sec">
+                    <div class="footer-title">Hỗ trợ</div>
+                    <ul>
+                        <li>Giúp đỡ</li>
+                        <li>Phản hồi</li>
+                        <li>Báo cáo vấn đề sản phẩm</li>
+                    </ul>
+                </div>
+                <div class="g-i-t">
+                    <div class="footer-title">Phản hồi từ khách hàng</div>
+                    <form action="/" method="post" class="space-y-2">
+                        <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Tên...' />
+                        <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email...' />
+                        <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+                            placeholder='Tin nhắn...'></textarea>
+                        <button type="submit" class='f-btn'>Gởi</button>
+                    </form>
+                </div>
+            </div>
+            <div class='cr-con'>Copyright &copy; 2023 | Made by Dixie</div>
+        </footer>
+    </footer>
+</body>
+<script src="./js/script.js"></script>
+</html>

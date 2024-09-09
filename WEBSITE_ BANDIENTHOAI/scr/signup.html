@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Đăng ký</title>
+</head>
+<body>
+   <header class="header">
+      <div class="left">
+          <a href="./index.html">
+              <div class="logo"><img src="./images/public-img/logo.png" alt="">
+          </a>
+          <h1 style="font-weight: bold;;">dixie</h1>
+      </div>
+      </div>
+      <div class="center">
+          <nav class="menu">
+              <div class="menu-items"><a href="./index.html">Trang chủ</a></div>
+              <div class="menu-items"><a href="./products.html">sản phẩm</a>
+                  <div class="menu-lv-2">
+                      <div class="menu-items-lv-2"><a href="#">Orion</a></div>
+                      <div class="menu-items-lv-2"><a href="#">Lay's</a></div>
+                      <div class="menu-items-lv-2"><a href="#">Poca</a></div>
+                      <div class="menu-items-lv-2"><a href="#">Oishi</a></div>
+                  </div>
+              </div>
+              <div class="menu-items"><a href="">tin tức</a></div>
+              <div class="menu-items"><a href="">Liên hệ</a></div>
+          </nav>
+      </div>
+      <div class="right">
+          <div class="search">
+              <input type="text" placeholder="Tìm kiếm ...">
+              <div class="btn"><ion-icon name="search-outline"></ion-icon></div>
+          </div>
+          <div class="cart">
+              <div class="quantity">0</div>
+              <a href="./cart.html"><img src="./images/icons/carts.png" alt=""></a>
+          </div>
+          <div class="account">
+              <div class="avatar">
+                  <a href="./login.html">
+                      <img src="./images/icons/user.png" alt="">
+                  </a>
+              </div>
+              <h4 class="user-name">Khách hàng 1</h4>
+          </div>
+
+      </div>
+  </header>
+
+
+    <div class="main-body">
+        <div class="logo">
+            <img src="./images/public-img/logo.png" alt="">
+        </div>
+        <div class="title">Đăng ký</div>
+        <form action="./login.html" class="form-register" onsubmit="return false">
+            <div class="group-input">
+                <span class="mess-error"></span>
+                <input name="userName" type="text" placeholder="Tên đăng nhập">
+            </div>
+            <div class="group-input">
+                <span class="mess-error"></span>
+                <input name="yourName" type="text" placeholder="Họ và tên">
+            </div>
+            <div class="group-input">
+                <span class="mess-error"></span>
+                <input name="password" type="password" placeholder="Mật khẩu">
+            </div>
+            <div class="group-input">
+                <span class="mess-error"></span>
+                <input name="passwordConfirm" type="password" placeholder="Nhập lại mật khẩu">
+            </div>
+            <button name="confirmRegister" class="btn-login confirm-register">Đăng Ký</button>
+        </form>
+
+        <div class="login-orther">
+            <div class="items"></div>
+            <div class="items">Hoặc đăng ký bằng</div>
+            <div class="items"></div>
+        </div>
+        <div class="list">
+            <a href="#" class="items">
+                <img src="./images/icons/facebook.png" alt="">
+                <span>Facebook</span>
+            </a>
+            <a href="#" class="items">
+                <img src="./images/icons/facebook.png" alt="">
+                <span>Facebook</span>
+            </a>
+            <a href="#" class="items">
+                <img src="./images/icons/facebook.png" alt="">
+                <span>Facebook</span>
+            </a>
+        </div>
+        <div class="to-signup">
+            <span>Chưa có tài khoản?</span>
+            <a href="./login.html">Trở lại đăng nhập</a>
+        </div>
+    </div>
+
+    <footer>
+       <div class="f-item">
+          <div class="app-info">
+             <span class='app-name'>
+                <span class='app-initial'>D</span>ixie
+             </span>
+             <p>Chúng tôi cam kết sản phẩm<strong> an toàn </strong> và <strong> đảm bảo chất lượng </strong> tốt nhất
+                đến cho người dùng.</p>
+             <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                      <ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                      <ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                      <ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                      <ion-icon name="logo-instagram"></ion-icon></a></li>
+             </ul>
+          </div>
+          <div class="useful-links">
+             <div class="footer-title">Kết nối với Dixie</div>
+             <ul>
+                <li>Giới thiệu</li>
+                <li>Đăng nhập</li>
+                <li>Về chúng tôi</li>
+                <li>Liên kết</li>
+                <li>Quảng cáo với chúng tôi</li>
+                <li>Điều khoản và dịch vụ</li>
+             </ul>
+          </div>
+          <div class="help-sec">
+             <div class="footer-title">Hỗ trợ</div>
+             <ul>
+                <li>Giúp đỡ</li>
+                <li>Phản hồi</li>
+                <li>Báo cáo vấn đề sản phẩm</li>
+             </ul>
+          </div>
+          <div class="g-i-t">
+             <div class="footer-title">Phản hồi từ khách hàng</div>
+             <form action="/" method="post" class="space-y-2">
+                <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Tên...' />
+                <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email...' />
+                <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+                   placeholder='Tin nhắn...'></textarea>
+                <button type="submit" class='f-btn'>Gởi</button>
+             </form>
+          </div>
+       </div>
+       <div class='cr-con'>Copyright &copy; 2023 | Made by Dixie</div>
+    </footer>
+
+</body>
+<script src="./js/helper.js"></script>
+<script src="./js/register.js"></script>
+</html>
